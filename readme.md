@@ -15,7 +15,7 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 2. **Crie um ambiente virtual:**
    ```sh
-   python3 -m venv ./venv
+   python -m venv ./venv 
    ```
 
 3. **Ative o ambiente virtual:**
@@ -23,11 +23,7 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
      ```sh
      source venv/bin/activate
      ```
-   - No Windows, abra um terminal no modo administrador e execute o comando:
-   ```sh
-   Set-ExecutionPolicy RemoteSigned
-   ```
-
+   - No Windows:
      ```sh
      venv\Scripts\activate
      ```
