@@ -62,3 +62,11 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+# Como rodar o projeto
+
+Agora, utilizando o docker-compose é usado para rodar somente um comando
+
+```sh
+   docker compose up
+```
